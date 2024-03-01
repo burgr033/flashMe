@@ -1,4 +1,5 @@
 # FlashMe
+
 ![demo](.github/demo.gif)
 
 FlashMe is a terminal-based flashcard application written in Go using the Bubble Tea framework. It provides a simple and efficient way to study and review flashcards right from your command line. FlashMe is designed to be easy to use, customizable, and distraction-free.
