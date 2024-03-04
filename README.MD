@@ -13,7 +13,7 @@ FlashMe is a terminal-based flashcard application written in Go using the Bubble
 To get FlashMe, make sure you have Go installed on your system, and start by cloning the repo
 
 ```bash
-git clone https://github.com/cigh033/flashme
+git clone https://github.com/burgr033/flashme
 cd flashme
 go mod tidy
 go run main.go
@@ -31,7 +31,7 @@ Follow the on-screen instructions to navigate through the flashcards and review 
 
 ## Contributing
 
-As I am new to Go, contributions to FlashMe are very welcome! If you have any ideas, suggestions, or bug fixes, feel free to open an issue or submit a pull request on [GitHub](https://github.com/cigh033/flashme).
+As I am new to Go, contributions to FlashMe are very welcome! If you have any ideas, suggestions, or bug fixes, feel free to open an issue or submit a pull request on [GitHub](https://github.com/burgr033/flashme).
 
 ## Roadmap
 
