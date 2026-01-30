@@ -1,1 +1,4 @@
 Das ist eine Testfrage?	Das ist eine Testantwort
+What does $O(1)$ mean?	Big-O describes the runtime complexity of an algorithm or program. $O(1)$ means, that the time complexity is constant
+What does $\alpha+\beta=\gamma$ say?	no idea...
+

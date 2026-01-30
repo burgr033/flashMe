@@ -14,10 +14,7 @@ FlashMe is a terminal-based flashcard application written in Go using the Bubble
 To get FlashMe, make sure you have Go installed on your system, and start by cloning the repo
 
 ```bash
-git clone https://github.com/burgr033/flashme
-cd flashme
-go build cmd/flashMe/main.go -o flashMe
-
+go install github.com/burgr033/flashMe/cmd/flashMe@v1.0.0
 ```
 
 ## Usage
@@ -25,7 +22,15 @@ go build cmd/flashMe/main.go -o flashMe
 After installing FlashMe, start the application by running:
 
 ```bash
-flashme
+flashMe
+```
+
+flashMe needs a cards.txt in the current directory which has a tab separated list of questions
+
+```list
+Das ist eine Testfrage?	Das ist eine Testantwort
+What does $O(1)$ mean?	Big-O describes the runtime complexity of an algorithm or program. $O(1)$ means, that the time complexity is constant
+
 ```
 
 Follow the on-screen instructions to navigate through the flashcards and review your study materials.
