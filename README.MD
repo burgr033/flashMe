@@ -16,8 +16,8 @@ To get FlashMe, make sure you have Go installed on your system, and start by clo
 ```bash
 git clone https://github.com/burgr033/flashme
 cd flashme
-go mod tidy
-go run main.go
+go build cmd/flashMe/main.go -o flashMe
+
 ```
 
 ## Usage
